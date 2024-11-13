@@ -4,6 +4,8 @@ const whitelist = [
   'http://localhost:8082', 
   'http://localhost:3000',
   'https://stellar-centaur-000321.netlify.app'
+  'https://regal-florentine-37ab58.netlify.app'
+  'https://lucent-llama-478765.netlify.app'
 ];
 
 const corsOptions = {
