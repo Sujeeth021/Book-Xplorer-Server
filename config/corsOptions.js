@@ -2,7 +2,8 @@ const whitelist = [
   'https://ateeqrana.live', 
   'http://127.0.0.1:5500', 
   'http://localhost:8082', 
-  'http://localhost:3000'
+  'http://localhost:3000',
+  'https://stellar-centaur-000321.netlify.app'
 ];
 
 const corsOptions = {
