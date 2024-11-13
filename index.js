@@ -9,12 +9,7 @@ import booksRouter from './routes/api/books.js';
 import authRouter from './routes/api/auth.js'; 
 const app = express();
 app.use(cors(corsOptions));
-const corsOptions = {
-    origin: 'https://stellar-centaur-000321.netlify.app', // Allow only your frontend URL
-    methods: ['GET', 'POST', 'PUT', 'DELETE'], // Adjust methods as needed
-    credentials: true, // Set to true if using cookies or authentication
-    optionsSuccessStatus: 200 // For legacy browser support
-};
+
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
